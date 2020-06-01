@@ -32,7 +32,7 @@ body
 	text-decoration: none;
 	color: white;
 }
-.active, .menu-bar ul li:hover
+.active, .menu-bar ul li:onclick
 {
 	background: #2bab0d;
 	border-radius: 4px;
@@ -45,7 +45,7 @@ body
 {
 	display:none;
 }
-.menu-bar ul li:hover .sub-menu-1
+.menu-bar ul li:onclick .sub-menu-1
 {
 	display: block;
 	position: absolute;
@@ -53,12 +53,12 @@ body
 	margin-top: 15px;
 	margin-left: -15px;
 }
-.menu-bar ul li:hover .sub-menu-1 ul 
+.menu-bar ul li:onclick .sub-menu-1 ul 
 {
 	display: block;
 	margin: 10px;
 }
-.menu-bar ul li:hover .sub-menu-1 ul li
+.menu-bar ul li:onclick .sub-menu-1 ul li
 {
 	width: 150px;
 	padding: 10px;
@@ -67,11 +67,11 @@ body
 	border-radius: 0;
 	text-align: left;
 }
-.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+.menu-bar ul li:onclick .sub-menu-1 ul li:last-child
 {
 	border-bottom: none;
 }
-.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+.menu-bar ul li:onclick .sub-menu-1 ul li a:onclick
 {
 	color:red;
 }
@@ -84,7 +84,7 @@ body
 {
 	display:none;
 }
-.hover-me:hover .sub-menu-2
+.hover-me:onclick .sub-menu-2
 {
 	position: absolute;
 	display: block;
